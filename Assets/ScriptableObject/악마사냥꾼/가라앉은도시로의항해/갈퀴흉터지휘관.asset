@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 927aaa0d858f50349b4ad7d57a710d6f, type: 3}
-  m_Name: "\uAC08\uD034\uD749\uD130\uC9C0\uD718\uAD00 1"
+  m_Name: "\uAC08\uD034\uD749\uD130\uC9C0\uD718\uAD00"
   m_EditorClassIdentifier: 
   cardState: 0
-  cardJob: 
-  cardLevel: 0
-  cardName: 
-  cost: 0
-  power: 0
-  hp: 0
+  cardJob: DemonHunter
+  cardLevel: 2
+  cardName: "\uAC08\uD034\uD749\uD130\uC9C0\uD718\uAD00"
+  cost: 6
+  power: 2
+  hp: 6
   keyword:
     "\uACFC\uBD80\uD558": 0
-    "\uB3C4\uBC1C": 0
+    "\uB3C4\uBC1C": 1
     "\uB3C5\uC131": 0
     "\uB3CC\uC9C4": 0
     "\uBA74\uC5ED": 0
@@ -33,7 +33,7 @@ MonoBehaviour:
     "\uC18D\uACF5": 0
     "\uC5F0\uACC4": 0
     "\uC740\uC2E0": 0
-    "\uC804\uD22C\uC758\uD568\uC131": 0
+    "\uC804\uD22C\uC758\uD568\uC131": 1
     "\uC8FC\uBB38\uACF5\uACA9\uB825": 0
     "\uC8FD\uC74C\uC758\uBA54\uC544\uB9AC": 0
     "\uC9C8\uD48D": 0
