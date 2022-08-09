@@ -6,7 +6,7 @@ using System;
 [CreateAssetMenu(fileName = "Card Data", menuName = "Scriptable Object/Hearthstone", order = 1)]
 public class CardData : ScriptableObject
 {
-    [Header("0 = Minion, 1 = Spell, 2 = Weapon, 3 = Place")]
+    [Header("0 = Minion, 1 = Spell, 2 = Weapon, 3 = Place, 4 = ¿µ¿õº¯½Å")]
     [SerializeField]
     private int cardState;
 
@@ -36,9 +36,11 @@ public class CardData : ScriptableObject
 
     public string CardSpellTribe { get { return cardSpellTribe; } }
 
+    [Space(10f)]
     [SerializeField]
     private string cardName;
 
+    
     public string CardName { get { return cardName; }}
 
 
