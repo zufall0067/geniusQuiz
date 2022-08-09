@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: "\uC544\uAE30\uBA40\uB85D"
   m_EditorClassIdentifier: 
   cardState: 0
-  cardJob: 
+  cardJob: Nomal
   cardLevel: 0
-  cardName: 
+  cardName: "\uC544\uAE30 \uBA40\uB85D"
   cost: 0
-  power: 0
-  hp: 0
+  power: 1
+  hp: 1
   keyword:
     "\uACFC\uBD80\uD558": 0
     "\uB3C4\uBC1C": 0
