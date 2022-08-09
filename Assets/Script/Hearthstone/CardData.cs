@@ -30,6 +30,12 @@ public class CardData : ScriptableObject
 
     public string CardTribe { get { return cardTribe; } }
 
+    [Header("Frost, Arcane, Holy, Fire, Shadow, Fel, Nature")]
+    [SerializeField]
+    private string cardSpellTribe;
+
+    public string CardSpellTribe { get { return cardSpellTribe; } }
+
     [SerializeField]
     private string cardName;
 
