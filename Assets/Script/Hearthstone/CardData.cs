@@ -24,6 +24,12 @@ public class CardData : ScriptableObject
 
     public int CardLevel { get { return cardLevel; } }
 
+    [Header("Murloc, Demon, Beast, Dragon, Totem, Pirate, Machine, Elemental, QuillBoar, Naga, All")]
+    [SerializeField]
+    private string cardTribe;
+
+    public string CardTribe { get { return cardTribe; } }
+
     [SerializeField]
     private string cardName;
 
