@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927aaa0d858f50349b4ad7d57a710d6f, type: 3}
+  m_Name: Card Data
+  m_EditorClassIdentifier: 
+  cardState: 0
+  cardJob: Maze
+  cardLevel: 0
+  cardTribe: 
+  cardSpellTribe: 
+  cardName: 
+  cost: 0
+  power: 0
+  hp: 0
+  keyword:
+    "\uACFC\uBD80\uD558": 0
+    "\uB3C4\uBC1C": 0
+    "\uB3C5\uC131": 0
+    "\uB3CC\uC9C4": 0
+    "\uBA74\uC5ED": 0
+    "\uBC1C\uACAC": 0
+    "\uBE44\uBC00": 0
+    "\uBE59\uACB0": 0
+    "\uC0DD\uBA85\uB825\uD761\uC218": 0
+    "\uC120\uD0DD": 0
+    "\uC18D\uACF5": 0
+    "\uC5F0\uACC4": 0
+    "\uC740\uC2E0": 0
+    "\uC804\uD22C\uC758\uD568\uC131": 0
+    "\uC8FC\uBB38\uACF5\uACA9\uB825": 0
+    "\uC8FD\uC74C\uC758\uBA54\uC544\uB9AC": 0
+    "\uC9C8\uD48D": 0
+    "\uCC28\uB2E8": 0
+    "\uCC9C\uC0C1\uC758\uBCF4\uD638\uB9C9": 0
+    "\uCE68\uBB35": 0
+    "\uAC1C\uC804": 0
+    "\uCD94\uBC29\uC790": 0
+    "\uBF51\uC744\uB54C\uC2DC\uC804": 0
+    "\uD734\uBA74": 0
+    "\uAD11\uD3ED": 0
+    "\uAD50\uD658\uC131": 0
+    "\uD018\uC2A4\uD2B8\uC804\uAC1C": 0
+    "\uBA85\uC608\uB85C\uC6B4\uC77C\uACA9": 0
+    "\uAC70\uC218": 0
+    "\uC778\uC591": 0
+    "\uC8FC\uC785": 0
+    "\uC608\uBE44\uBD80\uD488": 0
+    "\uACA9\uB824": 0
+    "\uBE44\uCDE8\uACE8\uB818": 0
+    "\uC801\uC751": 0
+    "\uD018\uC2A4\uD2B8\uBCF4\uC0C1": 0
+    "\uC18C\uC9D1": 0
+    "\uC794\uC0C1": 0
+    "\uD569\uCCB4": 0
+    "\uC555\uC0B4": 0
+    "\uC774\uC911\uC8FC\uBB38": 0
+    "\uC878\uAC1C": 0
+    "\uD658\uC0DD": 0
+    "\uAE30\uC6D0": 0
+    "\uBD80\uAC00\uD018\uC2A4\uD2B8\uBCF4\uC0C1": 0
+    "\uC8FC\uBB38\uD3ED\uC8FC": 0
+    "\uD0C0\uB77D": 0
