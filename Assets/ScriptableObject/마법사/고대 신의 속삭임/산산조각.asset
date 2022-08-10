@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\uC0B0\uC0B0\uC870\uAC01"
   m_EditorClassIdentifier: 
   cardState: 1
-  cardJob: Maze
+  cardJob: Mage
   cardLevel: 0
   cardTribe: 
   cardSpellTribe: Frost

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\uC5BC\uAD74 \uC5C6\uB294 \uC18C\uD658\uC0AC"
   m_EditorClassIdentifier: 
   cardState: 0
-  cardJob: Maze
+  cardJob: Mage
   cardLevel: 0
   cardTribe: 
   cardSpellTribe: 
