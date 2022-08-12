@@ -626,7 +626,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605752919301fef45a87e484e4789979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardStateCondition: 0
+  cardState: 0
+  cardJob: Mage
   clone: {fileID: 0}
   "\uAC00\uB77C\uC549\uC740\uB3C4\uC2DC\uB85C\uC758\uD56D\uD574":
   - {fileID: 1647155171964945413, guid: 554b6254098f97b48b98f9dc8b30e8a6, type: 3}
