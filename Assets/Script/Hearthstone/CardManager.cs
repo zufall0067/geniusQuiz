@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class CardManager : MonoBehaviour
 {
-    public int cardStateCondition;
+    public int cardState; //하수인, 주문, 무기, 영웅변신
+
+    public string cardJob; // 직업
+
+    public int cardLevel; // 등급
 
     public GameObject clone;
 
@@ -34,16 +38,30 @@ public class CardManager : MonoBehaviour
 
                     clone = Instantiate(가라앉은도시로의항해[random]);
 
-                    if (cardStateCondition == 가라앉은도시로의항해[random].transform.gameObject.GetComponent<CardData>().CardState)
+                    Card temple = clone.GetComponent<Card>();
+
+                    if (temple.cardStateCondition == cardState || cardState < 0)
                     {
-                        
-                        break;
+                        if(temple.cardJobCondition == cardJob || cardJob == " ")
+                        {
+                            if (temple.cardLevelCondition == cardLevel || cardLevel < 0)
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                Destroy(clone);
+                            }
+                        }
+                        else
+                        {
+                            Destroy(clone);
+                        }
                     }
                     else
                     {
                         Destroy(clone);
                     }
-                    
                 }
                 break;
         }

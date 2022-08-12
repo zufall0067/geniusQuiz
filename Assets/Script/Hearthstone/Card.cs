@@ -14,13 +14,23 @@ enum CardLevel
 public class Card : MonoBehaviour
 {
     public CardData cardData;
-    // Start is called before the first frame update
-    void Start()
+
+    public int cardStateCondition;
+
+    public string cardJobCondition;
+
+    public int cardLevelCondition;
+
+    public string cardTribeCondition;
+
+
+    private void Awake()
     {
-        
+        cardStateCondition = cardData.CardState;
+        cardJobCondition = cardData.CardJob;
+        cardLevelCondition = cardData.CardLevel;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
