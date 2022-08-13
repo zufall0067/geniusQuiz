@@ -44,11 +44,11 @@ public class CardManager : MonoBehaviour
 
                     if (temple.cardStateCondition == cardState || cardState < 0)
                     {
-                        if(temple.cardJobCondition == cardJob || cardJob == " ")
+                        if(temple.cardJobCondition == cardJob || string.IsNullOrEmpty(cardJob))
                         {
                             if (temple.cardLevelCondition == cardLevel || cardLevel < 0)
                             {
-                                if(temple.cardTribeCondition == cardTribe || cardTribe == " ")
+                                if(temple.cardTribeCondition == cardTribe || string.IsNullOrEmpty(cardTribe))
                                 {
                                     break;
                                 }
