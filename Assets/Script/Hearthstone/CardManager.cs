@@ -10,6 +10,8 @@ public class CardManager : MonoBehaviour
 
     public int cardLevel; // 등급
 
+    public string cardTribe; // 종족
+
     public GameObject clone;
 
     public GameObject[] 가라앉은도시로의항해;
@@ -46,7 +48,14 @@ public class CardManager : MonoBehaviour
                         {
                             if (temple.cardLevelCondition == cardLevel || cardLevel < 0)
                             {
-                                break;
+                                if(temple.cardTribeCondition == cardTribe || cardTribe == " ")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Destroy(clone);
+                                }
                             }
                             else
                             {

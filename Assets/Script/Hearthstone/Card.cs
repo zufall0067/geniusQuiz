@@ -29,6 +29,7 @@ public class Card : MonoBehaviour
         cardStateCondition = cardData.CardState;
         cardJobCondition = cardData.CardJob;
         cardLevelCondition = cardData.CardLevel;
+        cardTribeCondition = cardData.CardTribe;
     }
 
     void Update()
