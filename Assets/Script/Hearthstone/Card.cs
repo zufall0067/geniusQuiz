@@ -17,17 +17,17 @@ public class Card : MonoBehaviour
 
     public int cardStateCondition;
 
-    public string cardJobCondition;
+    public int cardJobCondition;
 
-    public int cardLevelCondition;
+    //public int cardLevelCondition;
 
-    public string cardTribeCondition;
+    //public string cardTribeCondition;
 
 
     private void Awake()
     {
-        //cardStateCondition = cardData.CardState;
-        //cardJobCondition = cardData.CardJob;
+        cardStateCondition = (int)cardData.cardState;
+        cardJobCondition = (int)cardData.cardJob;
         //cardLevelCondition = cardData.CardLevel;
         //cardTribeCondition = cardData.CardTribe;
     }
