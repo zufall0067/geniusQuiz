@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-enum CardLevel
-{
-    ÀÏ¹Ý = 0,
-    ÈÖ±Í,
-    ¿µ¿õ,
-    Àü¼³,
-    ¾øÀ½
-};
+//enum CardLevel
+//{
+//    ÀÏ¹Ý = 0,
+//    ÈÖ±Í,
+//    ¿µ¿õ,
+//    Àü¼³,
+//    ¾øÀ½
+//};
 
 public class Card : MonoBehaviour
 {
@@ -26,10 +26,10 @@ public class Card : MonoBehaviour
 
     private void Awake()
     {
-        cardStateCondition = cardData.CardState;
-        cardJobCondition = cardData.CardJob;
-        cardLevelCondition = cardData.CardLevel;
-        cardTribeCondition = cardData.CardTribe;
+        //cardStateCondition = cardData.CardState;
+        //cardJobCondition = cardData.CardJob;
+        //cardLevelCondition = cardData.CardLevel;
+        //cardTribeCondition = cardData.CardTribe;
     }
 
     void Update()

@@ -7,34 +7,19 @@ using System;
 public class CardData : ScriptableObject
 {
     [Header("0 = Minion, 1 = Spell, 2 = Weapon, 3 = Place, 4 = 영웅변신")]
-    [SerializeField]
-    private int cardState;
-
-    public int CardState { get { return cardState; } }
+    public CardState cardState;
 
     [Header("Warrior, Shaman, Rogue, Paladin, Hunter, Druid, Warlock, Mage, Priest, Demon Hunter, Nomal")]
-    [SerializeField]
-    private string cardJob;
-
-    public string CardJob { get { return cardJob; } }
+    public CardJob cardJob;
 
     [Header("0 = 일반, 1 = 휘귀, 2 = 영웅, 3 = 전설, 4 = 없음")]
-    [SerializeField]
-    private int cardLevel;
-
-    public int CardLevel { get { return cardLevel; } }
+    private CardLevel cardLevel;
 
     [Header("Murloc, Demon, Beast, Dragon, Totem, Pirate, Machine, Elemental, QuillBoar, Naga, All")]
-    [SerializeField]
-    private string cardTribe;
-
-    public string CardTribe { get { return cardTribe; } }
+    private CardTribe cardTribe;
 
     [Header("Frost, Arcane, Holy, Fire, Shadow, Fel, Nature")]
-    [SerializeField]
-    private string cardSpellTribe;
-
-    public string CardSpellTribe { get { return cardSpellTribe; } }
+    private CardSpellTribe cardSpellTribe;
 
     [Space(10f)]
     [SerializeField]
@@ -62,7 +47,7 @@ public class CardData : ScriptableObject
     public int HP { get { return hp; }}
 
 
-    [System.Serializable]
+    /*[System.Serializable]
     public struct Keyword
     {
         public int 과부하;
@@ -112,8 +97,8 @@ public class CardData : ScriptableObject
         public bool 부가퀘스트보상;
         public bool 주문폭주;
         public bool 타락;
-    }
+    }*/
 
     [Header("Card Keyword")]
-    public Keyword keyword;
+    public List<CardKeyword> keyword = new List<CardKeyword>();
 }
