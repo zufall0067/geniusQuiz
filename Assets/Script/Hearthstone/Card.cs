@@ -19,6 +19,13 @@ public class Card : MonoBehaviour
 
     public int cardJobCondition;
 
+    public int cardCostCondition;
+
+    public int cardPowerCondition;
+
+    public int cardHpCondition;
+
+
     //public int cardLevelCondition;
 
     //public string cardTribeCondition;
@@ -28,6 +35,9 @@ public class Card : MonoBehaviour
     {
         cardStateCondition = (int)cardData.cardState;
         cardJobCondition = (int)cardData.cardJob;
+        cardCostCondition = cardData.Cost;
+        cardHpCondition = cardData.HP;
+        cardPowerCondition = cardData.Power;
         //cardLevelCondition = cardData.CardLevel;
         //cardTribeCondition = cardData.CardTribe;
     }

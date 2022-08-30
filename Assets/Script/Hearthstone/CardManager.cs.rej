@@ -1,0 +1,47 @@
+diff a/Assets/Script/Hearthstone/CardManager.cs b/Assets/Script/Hearthstone/CardManager.cs	(rejected hunks)
+@@ -34,44 +34,7 @@
+         switch(Ȯ����)
+         {
+             case 0:
+-                //while(true)
+-                //{
+-                //    int random = Random.Range(0, ����������÷�������.Length);
+-
+-                //    clone = Instantiate(����������÷�������[random]);
+-
+-                //    Card temple = clone.GetComponent<Card>();
+-
+-                //    if (temple.cardStateCondition == cardState || cardState < 0)
+-                //    {
+-                //        if(temple.cardJobCondition == cardJob || string.IsNullOrEmpty(cardJob))
+-                //        {
+-                //            if (temple.cardLevelCondition == cardLevel || cardLevel < 0)
+-                //            {
+-                //                if(temple.cardTribeCondition == cardTribe || string.IsNullOrEmpty(cardTribe))
+-                //                {
+-                //                    break;
+-                //                }
+-                //                else
+-                //                {
+-                //                    Destroy(clone);
+-                //                }
+-                //            }
+-                //            else
+-                //            {
+-                //                Destroy(clone);
+-                //            }
+-                //        }
+-                //        else
+-                //        {
+-                //            Destroy(clone);
+-                //        }
+-                //    }
+-                //    else
+-                //    {
+-                //        Destroy(clone);
+-                //    }
+-                //}
++                
+                 break;
+         }
+     }

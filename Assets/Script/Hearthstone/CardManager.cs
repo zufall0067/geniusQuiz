@@ -10,7 +10,7 @@ public class CardManager : MonoBehaviour
 
     public int cardState; //하수인, 주문, 무기, 영웅변신
 
-    public string cardJob; //직업
+    public int cardJob; //직업
 
     public int cardCost; // 비용
 
@@ -42,16 +42,65 @@ public class CardManager : MonoBehaviour
     {
         Destroy(clone);
 
-        int 확장팩 = Random.Range(0, 1);
+        int DLC = Random.Range(0, 1);
 
-        switch(확장팩)
+        switch(DLC)
         {
             case 0:
                 while(true)
                 {
+                    Debug.Log("시작");
 
+                    int random = Random.Range(0, cardDatas1.Length);
+
+                    clone = Instantiate(cardDatas1[random]);
+
+                    Card temple = clone.GetComponent<Card>();
+
+                    if (temple.cardStateCondition == cardState || cardState < 0)
+                    {
+                        if (temple.cardJobCondition == cardJob || cardJob < 0)
+                        {
+                            if (temple.cardCostCondition == cardCost || cardCost < 0)
+                            {
+                                if (temple.cardPowerCondition == cardPower || cardPower < 0)
+                                {
+                                    if (temple.cardHpCondition == cardHp || cardHp < 0)
+                                    {
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        Destroy(clone);
+                                    }
+                                    break;
+                                }
+                                else
+                                {
+                                    Destroy(clone);
+                                }
+                            }
+                            else
+                            {
+                                Destroy(clone);
+                            }
+                        }
+                        else
+                        {
+                            Destroy(clone);
+                        }
+                    }
+                    else
+                    {
+                        Destroy(clone);
+                    }
                 }
                 break;
         }
+    }
+
+    public void CardCostMask()
+    {
+
     }
 }
