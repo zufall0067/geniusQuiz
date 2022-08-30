@@ -15,7 +15,9 @@ MonoBehaviour:
   cardState: 0
   cardJob: DemonHunter
   cardLevel: 2
-  cardName: "\uAC08\uD034\uD749\uD130\uC9C0\uD718\uAD00"
+  cardTribe: Naga
+  cardSpellTribe: 
+  cardName: "\uAC08\uD034\uD749\uD130 \uC9C0\uD718\uAD00"
   cost: 6
   power: 2
   hp: 6

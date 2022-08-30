@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927aaa0d858f50349b4ad7d57a710d6f, type: 3}
   m_Name: "\uC5F0\uC18D\uD0C0\uACA9"
   m_EditorClassIdentifier: 
-  cardState: 0
-  cardJob: 
-  cardLevel: 0
-  cardName: 
-  cost: 0
+  cardState: 1
+  cardJob: DemonHunter
+  cardLevel: 1
+  cardTribe: 
+  cardSpellTribe: Hell
+  cardName: "\uC5F0\uC18D\uD0C0\uACA9"
+  cost: 2
   power: 0
   hp: 0
   keyword:

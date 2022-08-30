@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927aaa0d858f50349b4ad7d57a710d6f, type: 3}
   m_Name: "\uC6B0\uC0C1\uB04C\uC5B4\uB0B4\uB9AC\uAE30"
   m_EditorClassIdentifier: 
-  cardState: 0
-  cardJob: 
-  cardLevel: 0
-  cardName: 
-  cost: 0
+  cardState: 1
+  cardJob: DemonHunter
+  cardLevel: 1
+  cardTribe: 
+  cardSpellTribe: 
+  cardName: "\uC6B0\uC0C1 \uB04C\uC5B4\uB0B4\uB9AC\uAE30"
+  cost: 5
   power: 0
   hp: 0
   keyword:
@@ -49,7 +51,7 @@ MonoBehaviour:
     "\uD018\uC2A4\uD2B8\uC804\uAC1C": 0
     "\uBA85\uC608\uB85C\uC6B4\uC77C\uACA9": 0
     "\uAC70\uC218": 0
-    "\uC778\uC591": 0
+    "\uC778\uC591": 1
     "\uC8FC\uC785": 0
     "\uC608\uBE44\uBD80\uD488": 0
     "\uACA9\uB824": 0

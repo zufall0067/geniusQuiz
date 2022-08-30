@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 927aaa0d858f50349b4ad7d57a710d6f, type: 3}
-  m_Name: "\uBB34\uBC95\uC758\uD604\uC790"
+  m_Name: "\uACF5\uD3EC\uC758\uAD70\uC8FC\uC758\uC774\uBE68"
   m_EditorClassIdentifier: 
-  cardState: 0
+  cardState: 2
   cardJob: DemonHunter
-  cardLevel: 2
-  cardTribe: Naga
+  cardLevel: 0
+  cardTribe: 
   cardSpellTribe: 
-  cardName: "\uBB34\uBC95\uC758 \uD604\uC790"
-  cost: 2
-  power: 2
+  cardName: "\uACF5\uD3EC\uC758 \uAD70\uC8FC\uC758 \uB2E8\uAC80"
+  cost: 3
+  power: 3
   hp: 2
   keyword:
     "\uACFC\uBD80\uD558": 0
