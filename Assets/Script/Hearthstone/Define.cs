@@ -40,6 +40,7 @@ public enum CardLevel
 
 public enum CardTribe
 {
+    None,
     Murloc, 
     Demon, 
     Beast, 
