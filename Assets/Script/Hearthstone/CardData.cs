@@ -12,14 +12,14 @@ public class CardData : ScriptableObject
     [Header("Warrior, Shaman, Rogue, Paladin, Hunter, Druid, Warlock, Mage, Priest, Demon Hunter, Nomal")]
     public CardJob cardJob;
 
-    [Header("0 = ÀÏ¹Ý, 1 = ÈÖ±Í, 2 = ¿µ¿õ, 3 = Àü¼³, 4 = ¾øÀ½")]
-    public CardLevel cardLevel;
+    //[Header("0 = ÀÏ¹Ý, 1 = ÈÖ±Í, 2 = ¿µ¿õ, 3 = Àü¼³, 4 = ¾øÀ½")]
+    //public CardLevel cardLevel;
 
-    [Header("Murloc, Demon, Beast, Dragon, Totem, Pirate, Machine, Elemental, QuillBoar, Naga, All")]
-    public CardTribe cardTribe;
+    //[Header("Murloc, Demon, Beast, Dragon, Totem, Pirate, Machine, Elemental, QuillBoar, Naga, All")]
+    //public CardTribe cardTribe;
 
-    [Header("Frost, Arcane, Holy, Fire, Shadow, Fel, Nature")]
-    public CardSpellTribe cardSpellTribe;
+    //[Header("Frost, Arcane, Holy, Fire, Shadow, Fel, Nature")]
+    //public CardSpellTribe cardSpellTribe;
 
     [Space(10f)]
     [SerializeField]

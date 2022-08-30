@@ -56,6 +56,7 @@ public enum CardTribe
 
 public enum CardSpellTribe
 {
+    None,
     Frost, 
     Arcane, 
     Holy, 
