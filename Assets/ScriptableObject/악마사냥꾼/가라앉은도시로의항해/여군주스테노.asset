@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: "\uC5EC\uAD70\uC8FC\uC2A4\uD14C\uB178"
   m_EditorClassIdentifier: 
   cardState: 0
-  cardJob: 
-  cardLevel: 0
-  cardName: 
-  cost: 0
-  power: 0
-  hp: 0
+  cardJob: DemonHunter
+  cardLevel: 3
+  cardTribe: Naga
+  cardSpellTribe: 
+  cardName: "\uC5EC\uAD70\uC8FC \uC2A4\uD14C\uB178"
+  cost: 3
+  power: 2
+  hp: 4
   keyword:
     "\uACFC\uBD80\uD558": 0
     "\uB3C4\uBC1C": 0

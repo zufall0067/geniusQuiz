@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: "\uC544\uC988\uC0E4\uB77C\uD0C8\uC8FC\uC790"
   m_EditorClassIdentifier: 
   cardState: 0
-  cardJob: 
-  cardLevel: 0
-  cardName: 
-  cost: 0
-  power: 0
-  hp: 0
+  cardJob: DemonHunter
+  cardLevel: 1
+  cardTribe: 
+  cardSpellTribe: 
+  cardName: "\uC544\uC988\uC0E4\uB77C \uD0C8\uC8FC\uC790"
+  cost: 4
+  power: 5
+  hp: 3
   keyword:
     "\uACFC\uBD80\uD558": 0
     "\uB3C4\uBC1C": 0
@@ -30,12 +32,12 @@ MonoBehaviour:
     "\uBE59\uACB0": 0
     "\uC0DD\uBA85\uB825\uD761\uC218": 0
     "\uC120\uD0DD": 0
-    "\uC18D\uACF5": 0
+    "\uC18D\uACF5": 1
     "\uC5F0\uACC4": 0
     "\uC740\uC2E0": 0
     "\uC804\uD22C\uC758\uD568\uC131": 0
     "\uC8FC\uBB38\uACF5\uACA9\uB825": 0
-    "\uC8FD\uC74C\uC758\uBA54\uC544\uB9AC": 0
+    "\uC8FD\uC74C\uC758\uBA54\uC544\uB9AC": 1
     "\uC9C8\uD48D": 0
     "\uCC28\uB2E8": 0
     "\uCC9C\uC0C1\uC758\uBCF4\uD638\uB9C9": 0

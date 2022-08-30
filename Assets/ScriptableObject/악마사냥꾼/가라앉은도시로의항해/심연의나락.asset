@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 927aaa0d858f50349b4ad7d57a710d6f, type: 3}
   m_Name: "\uC2EC\uC5F0\uC758\uB098\uB77D"
   m_EditorClassIdentifier: 
-  cardState: 0
-  cardJob: 
+  cardState: 1
+  cardJob: DemonHunter
   cardLevel: 0
-  cardName: 
+  cardTribe: Shadow
+  cardSpellTribe: Shadow
+  cardName: "\uC2EC\uC5F0\uC758 \uB098\uB77D"
   cost: 0
   power: 0
   hp: 0
