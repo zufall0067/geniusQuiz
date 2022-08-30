@@ -13,13 +13,13 @@ public class CardData : ScriptableObject
     public CardJob cardJob;
 
     [Header("0 = ÀÏ¹Ý, 1 = ÈÖ±Í, 2 = ¿µ¿õ, 3 = Àü¼³, 4 = ¾øÀ½")]
-    private CardLevel cardLevel;
+    public CardLevel cardLevel;
 
     [Header("Murloc, Demon, Beast, Dragon, Totem, Pirate, Machine, Elemental, QuillBoar, Naga, All")]
-    private CardTribe cardTribe;
+    public CardTribe cardTribe;
 
     [Header("Frost, Arcane, Holy, Fire, Shadow, Fel, Nature")]
-    private CardSpellTribe cardSpellTribe;
+    public CardSpellTribe cardSpellTribe;
 
     [Space(10f)]
     [SerializeField]
