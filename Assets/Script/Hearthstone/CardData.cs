@@ -101,4 +101,6 @@ public class CardData : ScriptableObject
 
     [Header("Card Keyword")]
     public List<CardKeyword> keyword = new List<CardKeyword>();
+
+   
 }

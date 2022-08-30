@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
+using Random = UnityEngine.Random;
 
 public class CardManager : MonoBehaviour
 {
@@ -14,7 +16,11 @@ public class CardManager : MonoBehaviour
 
     public GameObject clone;
 
-    public GameObject[] 가라앉은도시로의항해;
+    public IEnumerable<CardData> cardDatas;
+
+    public GameObject[] cardDatas1 = new GameObject[0];
+
+
     void Start()
     {
         
@@ -25,7 +31,7 @@ public class CardManager : MonoBehaviour
         
     }
 
-    public void RandomCardSuch()
+    public void RandomCardShuffle()
     {
         Destroy(clone);
 
