@@ -22,6 +22,12 @@ public class CardManager : MonoBehaviour
 
     //public string cardTribe; // 종족
 
+    [Space(10)]
+    public GameObject cardCostMask;
+    public GameObject cardHPMask;
+    public GameObject cardPowerMask;
+
+    [Space(10)]
     public GameObject clone;
 
 
@@ -47,7 +53,10 @@ public class CardManager : MonoBehaviour
         switch(DLC)
         {
             case 0:
-                while(true)
+
+                int i = 0;
+
+                while(i < 100)
                 {
                     Debug.Log("시작");
 
@@ -73,7 +82,6 @@ public class CardManager : MonoBehaviour
                                     {
                                         Destroy(clone);
                                     }
-                                    break;
                                 }
                                 else
                                 {
@@ -94,6 +102,7 @@ public class CardManager : MonoBehaviour
                     {
                         Destroy(clone);
                     }
+                    i++;
                 }
                 break;
         }
@@ -101,6 +110,7 @@ public class CardManager : MonoBehaviour
 
     public void CardCostMask()
     {
+        Vector2 localposition = clone.transform.localPosition;
 
     }
 }
