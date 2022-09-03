@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-[CreateAssetMenu(fileName = "Card Data", menuName = "Scriptable Object/Hearthstone", order = 1)]
+[CreateAssetMenu(fileName = "Card Data", menuName = "Scriptable Object/HearthstoneCard", order = 1)]
 public class CardData : ScriptableObject
 {
     [Header("0 = Minion, 1 = Spell, 2 = Weapon, 3 = Place, 4 = ¿µ¿õº¯½Å")]
