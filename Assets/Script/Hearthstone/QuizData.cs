@@ -7,8 +7,10 @@ public class QuizData : ScriptableObject
 {
     public string quizName;
 
+    public string question;
+
     public string[] wrongAnswer;
     public string trueAnswer;
 
-    public Sprite question;
+    public Sprite questionImage;
 }
