@@ -13,4 +13,6 @@ public class QuizData : ScriptableObject
     public string trueAnswer;
 
     public Sprite questionImage;
+
+    public int answerCount;
 }
